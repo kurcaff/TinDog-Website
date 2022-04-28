@@ -1,0 +1,150 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    /* margin-top: 80px; */
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h4 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+p {
+    color: #8f8f8f;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.navbar-nav {
+    position: relative;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 5% 3% 5% 0;
+}
+
+/* Title */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+    /* overflow:hidden; */
+}
+
+.title-image {
+    transform: rotate(25deg);
+    width: 350px;
+    position: absolute;
+    left: 58%
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Features */
+#features {
+    position: relative;
+}
+
+.box {
+    padding: 4.5%;
+}
+.features-icon {
+    /* font-size: 4rem; */
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-image {
+    margin-right: 3%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+.pricing-btn {
+    width: 100%;
+}
+.pricing-column {
+    padding: 2%;
+}
+
+/* Footer */
+
+.footer-fab {
+    padding: 1% 1% 2%;
+}
+.footer-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {
+    background-color: #fff;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
